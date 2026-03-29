@@ -1,5 +1,5 @@
 import React from 'react';
-import imgCallToAction from '../assets/footer_background.png';
+import imgCallToAction from '../assets/footer-background.png';
 
 export default function CallToAction() {
   return (

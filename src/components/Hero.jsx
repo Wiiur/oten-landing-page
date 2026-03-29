@@ -1,6 +1,6 @@
 import React from 'react';
-import heroBg from '../assets/hero_background.png';
-import logo_oten from '../assets/logo_oten.png';
+import heroBg from '../assets/hero-background.png';
+import logo_oten from '../assets/logo-oten.png';
 
 export default function Hero() {
   return (
