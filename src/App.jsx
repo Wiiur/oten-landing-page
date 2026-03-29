@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 // 1. Importações da biblioteca de animação AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Analytics } from "@vercel/analytics/next"
 
 // Importação dos seus componentes
 import Hero from './components/Hero';
@@ -28,7 +29,7 @@ function App() {
     <main className="w-full min-h-screen relative">
       
       {/* Aqui entrará o seu futuro <Header /> (Menu fixo) */}
-      
+      <Analytics />
       <Hero />
       <Solutions />
       <About />
